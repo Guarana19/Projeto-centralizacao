@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralização</title>
+    <link rel="shortcut icon" href="imagens/icons8-pasta-de-animais-96.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #principal{
+            background-image: linear-gradient(50deg, lightblue, yellowgreen, green);
+            height: 96vh;
+            position: relative;
+
+
+        }
+
+        #central{
+            background-color: yellowgreen;
+            background-image: url(imagens/gato.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 200px;
+            margin: auto;
+
+            border: 5px solid black;
+            text-align: center;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <article id="central">
+            <h1>GATO</h1>
+        </article><!--central-->
+    </div><!--pricipal-->
+</body>
+</html>
